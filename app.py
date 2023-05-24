@@ -8,6 +8,10 @@ def hello_world():
 
 @app.route('/user')
 def hello_world():
-    return '나는 그루트다.'
+    return '나는그루트다'
+
+@app.route('/user_info')
+def hello_world():
+    return '나는 그루트아님'
 if __name__ == '__main__':
     app.run()
