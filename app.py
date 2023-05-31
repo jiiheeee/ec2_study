@@ -18,5 +18,9 @@ def hello_world():
 def hello_world():
     return '너는 그루트임?'
 
+@app.route('/user_3')
+def hello_world():
+    return '너는 그루트냐고 묻잖아'
+
 if __name__ == '__main__':
     app.run()
