@@ -4,23 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
-
-@app.route('/user')
-def hello_world():
-    return '나는그루트다'
-
-@app.route('/user_info')
-def hello_world():
-    return '나는 그루트아님'
-
-@app.route('/user_2')
-def hello_world():
-    return '너는 그루트임?'
-
-@app.route('/user_3')
-def hello_world():
-    return '너는 그루트냐고 묻잖아'
+    return '쓸다리없는거 다 지움ㅋ'
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0")
